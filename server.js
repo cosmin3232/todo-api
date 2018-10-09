@@ -47,7 +47,7 @@ app.get('/todos/:id', function(req, res) {
 		res.status(404).send();
 	}
 
-	res.send('Asking for todo with id of  s: ' + req.params.id);
+	res.send('Asking for todo with id of: ' + req.params.id);
 });
 
 // POST /todos
